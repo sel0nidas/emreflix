@@ -1,0 +1,43 @@
+html, body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.search-overlay {
+  position: absolute;
+  top: 60px; /* Adjust this value based on your header height */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+  width: 500px; /* Adjust the width as needed */
+  padding: 10px;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.search-result {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.result-image {
+  width: 40px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.result-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* ... (Remaining CSS) ... */
+
+
+/* ... (Remaining CSS) ... */
